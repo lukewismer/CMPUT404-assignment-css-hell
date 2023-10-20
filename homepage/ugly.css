@@ -1,0 +1,83 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffa500;
+    color: #00ff00;
+}
+
+header {
+    background-color: #800000;
+    color: #00ff00;
+    text-align: left;
+    padding: 5px;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-decoration: underline overline;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: #00ff00;
+    text-decoration: overline;
+}
+
+#main-content {
+    width: 95%;
+    margin: 20px auto;
+    background: #008080;
+    padding: 5px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+}
+
+article h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #800080;
+    text-decoration: overline;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+img {
+    width: 40%;
+    margin-top: 2px;
+    border: 5px solid #ffff00;
+}
+
+.quote {
+    font-style: normal;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: right;
+    color: #800080;
+}
+
+.article {
+    display: block;
+    align-items: start;
+    gap: 2px;
+}
+
+.player-image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.info {
+    flex: 1;
+    text-align: justify;
+    background-color: #ffffe0;
+    padding: 5px;
+    margin-top: 5px;
+    border: 5px double #ff0000;
+}
